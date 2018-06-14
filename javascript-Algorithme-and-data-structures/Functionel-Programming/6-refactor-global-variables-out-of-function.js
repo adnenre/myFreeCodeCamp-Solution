@@ -25,8 +25,6 @@ function remove(arr , bookName) {
       let index = newArray.indexOf(bookName);
     if (index >= 0) {
         newArray.splice(index,1);
-        
-
         // Add your code above this line
     }
     return newArray;
