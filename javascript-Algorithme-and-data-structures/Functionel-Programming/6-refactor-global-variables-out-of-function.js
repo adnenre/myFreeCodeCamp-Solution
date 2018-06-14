@@ -22,16 +22,18 @@ function add(arr, bookName) {
 // Add your code below this line
 function remove(arr , bookName) {
       let newArray = arr.slice(0);
-    if (newArray.indexOf(bookName) >= 0) {
-        newArray.splice(0,1,bookName);
-        return newArray;
+      let index = newArray.indexOf(bookName);
+    if (index >= 0) {
+        newArray.splice(index,1);
+        
 
         // Add your code above this line
     }
+    return newArray;
 }
 
 var newBookList = add(bookList, 'A Brief History of Time');
-console.log(newBookList);
+
 var newerBookList = remove(bookList, 'On The Electrodynamics of Moving Bodies');
 console.log(newerBookList);
  var newestBookList = remove(add(bookList, 'A Brief History of Time'), 'On The Electrodynamics of Moving Bodies');
