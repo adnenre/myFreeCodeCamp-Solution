@@ -5,11 +5,11 @@
  */
 
  // the global variable
-var globalTitle = "Winter Is Coming";
+var globalTitle = "Winter Is  Coming";
 
 // Add your code below this line
 function urlSlug(title) {
-  return title.split(' ').join('-')
+  return title.trim().toLowerCase().split(/\s+/g).join('-')
 }
 // Add your code above this line
 
