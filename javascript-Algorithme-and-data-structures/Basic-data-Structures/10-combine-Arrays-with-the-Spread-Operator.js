@@ -5,7 +5,7 @@
 
  function spreadOut(){
      let fragment = ['to', 'code'];
-     let sentense = ['learn',...fragment,'is','fun'];
+     let sentense = ['learning',...fragment,'is','fun'];
      return sentense;
  }
 
