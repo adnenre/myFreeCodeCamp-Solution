@@ -1,0 +1,16 @@
+{
+  "name": "managing-packages-with-npm",
+  "version": "1.0.0",
+  "description": " this is just a solution for the freecodecamp challenge",
+  "main": "1-how-to-user-package.json-the-core-of-Any-Node-js-Project.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "package.json",
+    "solution",
+    "freecodecamp"
+  ],
+  "author": "adnen rebai",
+  "license": "MIT"
+}
