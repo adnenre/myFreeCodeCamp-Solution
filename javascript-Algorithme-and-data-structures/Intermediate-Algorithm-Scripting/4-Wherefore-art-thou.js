@@ -3,7 +3,7 @@ function whatIsInAName(collection,source){
     var arr = [];
   arr =  collection.filter(col =>{
        for(let i in source){
-         
+         console.log(col[i]);
          if(col[i]!=source[i]){
              return false;
          }
@@ -14,9 +14,4 @@ function whatIsInAName(collection,source){
     return arr;
 }
 
-let collection = [{ first: "Romeo", last: "Montague" }, { first: "Mercutio", last: null }, { first: "Tybalt", last: "Capulet" }];
-let source = { last: "Capulet" };
-
-let result = whatIsInAName(collection,source);
-console.log(result)
-
+whatIsInAName([{first:'hello',last:'how are you'}],{first:'test'})

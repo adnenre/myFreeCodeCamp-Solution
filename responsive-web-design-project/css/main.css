@@ -1,0 +1,107 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  color: #222;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 2rem;
+}
+
+header img {
+  width: 250px;
+}
+
+nav {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  width: 80%;
+  padding: 0 1rem;
+  background: orange;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 2rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav ul li {
+  list-style: none;
+  text-align: center;
+  background: red;
+  width: 25%;
+  height: inherit;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+
+.video {
+  position: relative;
+  width: 100%;
+  height: 30rem;
+  background-color: #e9eced;
+  background: url(../images/video.jpg) center no-repeat;
+  background-size: cover;
+}
+
+.video .overlay-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #333e50;
+  opacity: 0.8;
+  z-index: 5;
+}
+
+.ytplayer-container {
+  position: absolute;
+  height: 30rem;
+  top: 0;
+  overflow: hidden;
+  z-index: 0;
+}
+
+#page-preloader {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: #e9eced;
+  z-index: 100;
+}
+
+#page-preloader .circular {
+  -webkit-animation: rotate 2s linear infinite;
+  animation: rotate 2s linear infinite;
+  height: 50px;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  -webkit-transform: translate(-50%, -50%) rotate(360deg);
+          transform: translate(-50%, -50%) rotate(360deg);
+  width: 50px;
+  z-index: 4;
+}
+/*# sourceMappingURL=main.css.map */

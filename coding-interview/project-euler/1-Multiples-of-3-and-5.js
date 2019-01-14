@@ -6,7 +6,7 @@ function multiplesOf3and5(number) {
       }
     }
     let result = array.reduce((a,b) => a+b);
-    console.log(result);
+    
     return result;
   }
   

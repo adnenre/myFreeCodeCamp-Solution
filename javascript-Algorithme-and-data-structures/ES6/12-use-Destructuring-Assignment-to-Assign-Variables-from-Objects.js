@@ -2,12 +2,15 @@
 // for neatly assigning values taken directly from an object
 // to variables.
 
-function getLength(str){
+function getLength(str) {
     "use strict";
-
-    const length = 0;
-    return str.length;
-}
-
-console.log(getLength('FreeCodeCamp'));
-
+  
+    // change code below this line
+    const {length : len } = str; // change this
+    // change code above this line
+  
+    return len; // you must assign length to len in line
+  
+  }
+  
+  console.log(getLength('FreeCodeCamp'));

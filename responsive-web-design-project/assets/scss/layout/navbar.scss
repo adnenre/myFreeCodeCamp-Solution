@@ -1,0 +1,40 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    color:#222;
+}
+
+header{
+    display:flex;
+    margin-top:2rem;
+    img{
+        width:250px;
+    }
+   
+}
+nav{
+    flex:1;
+    width:80%;
+   
+    padding:0 1rem;
+    background:orange;
+    ul {
+        display:flex;
+        height:2rem;
+        justify-content:space-between;
+        align-items: center;
+        li{
+            list-style: none;
+            text-align: center;
+            background:red;
+            width:25%;
+            height:inherit;
+            a{
+                text-decoration: none;
+
+            }
+        }
+    }
+}
